@@ -1,0 +1,30 @@
+<nav id="fh5co-menu-wrap" role="navigation">
+    <ul class="sf-menu" id="fh5co-primary-menu">
+        <li class="active">
+            <a href="{% url 'home' %}">Inicio</a>
+        </li>
+        <li>
+            <a href="" class="fh5co-sub-ddown">Clases</a>
+             <ul class="fh5co-sub-menu">
+                <li><a href="{% url 'clases' %}">Horarios</a></li>
+                <li><a href="{% url 'clases' %}">Planes</a></li>
+                <li>
+                    <a href="#" class="fh5co-sub-ddown">Sub-Menú</a>
+                    <ul class="fh5co-sub-menu">
+                        <li><a href="#">Tonificación</a></li>
+                        <li><a href="#">Cardio</a></li>
+                        <li><a href="#">Alimentación</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Nuestras Máquinas</a></li>
+                <li><a href="#">Fotos</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="{% url 'schedule' %}">Agenda</a>
+        </li>
+        <li><a href="{% url 'trainer' %}">Entrenadores</a></li>
+        <li><a href="{% url 'about' %}">Conócenos</a></li>
+        <li><a href="{% url 'contact' %}">Contacto</a></li>
+    </ul>
+</nav>
