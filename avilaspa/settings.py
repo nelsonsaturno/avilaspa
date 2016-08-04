@@ -79,19 +79,19 @@ WSGI_APPLICATION = 'avilaspa.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 # Para Heroku
-# DATABASES = {}
-# DATABASES['default'] = dj_database_url.config()
+DATABASES = {}
+DATABASES['default'] = dj_database_url.config()
 # Para local
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'avilaspa',
-        'USER': 'avilaspa',
-        'PASSWORD': 'avilaspa',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'avilaspa',
+#         'USER': 'avilaspa',
+#         'PASSWORD': 'avilaspa',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
 
 
 # Password validation
